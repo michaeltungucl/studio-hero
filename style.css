@@ -1,0 +1,29 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    display: flex;
+    width: 200vw;
+    background: black;
+    overflow: hidden;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.white {
+    background: white;
+    padding: 0;
+    margin: 0;
+    min-width: 35px;
+    height: 500px;
+    transition: all 0.3s ease-in-out;
+}
+
+.black {
+    background: black;
+    padding: 0;
+    margin: 0;
+    min-width: 35px;
+    height: 500px;
+}
